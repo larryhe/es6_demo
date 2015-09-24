@@ -1,4 +1,4 @@
-define(['./Base'], function(Base){
+define(['base'], function(Base){
     var Shape = Base.extend({
         init: function(type){
             this.type = type;

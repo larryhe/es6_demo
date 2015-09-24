@@ -1,4 +1,4 @@
-define(['./Shape'], function(Shape){
+define(['shape'], function(Shape){
     var Rectangle = Shape.extend({
         init: function(w, h){
             this._super("Rectangle");

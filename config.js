@@ -16,8 +16,18 @@ System.config({
   map: {
     "babel": "npm:babel-core@5.8.25",
     "babel-runtime": "npm:babel-runtime@5.8.24",
+    "base": "src/amd/Base.js",
     "core-js": "npm:core-js@1.1.4",
+    "handlebars": "github:components/handlebars.js@4.0.3",
+    "hbs": "github:davis/plugin-hbs@1.1.0",
     "jquery": "github:components/jquery@2.1.4",
+    "main": "src/main.js",
+    "rectangle": "src/amd/Rectangle.js",
+    "shape": "src/amd/Shape.js",
+    "square": "src/Square.js",
+    "github:davis/plugin-hbs@1.1.0": {
+      "handlebars": "github:components/handlebars.js@4.0.3"
+    },
     "github:jspm/nodelibs-process@0.1.1": {
       "process": "npm:process@0.10.1"
     },

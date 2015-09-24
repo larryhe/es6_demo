@@ -1,4 +1,4 @@
-import Rectangle from "./amd/Rectangle.js"
+import Rectangle from "rectangle"
 
 export class Square extends Rectangle{
     constructor(side){
